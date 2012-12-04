@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)handleSendPush:(id)sender;
+
 @end
