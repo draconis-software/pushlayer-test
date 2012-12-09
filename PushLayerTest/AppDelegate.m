@@ -30,6 +30,14 @@
 	NSLog(@"Failed to register for pushes: %@", err);
 }
 
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+	[[[UIAlertView alloc] initWithTitle:@"Got notification!"
+															message:[userInfo description]
+														 delegate:nil
+										cancelButtonTitle:@"OK"
+										otherButtonTitles:nil] show];
+}
+
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 	const unsigned *tokenBytes = [deviceToken bytes];
 	NSString *hexToken = [NSString stringWithFormat:@"%08x%08x%08x%08x%08x%08x%08x%08x",
