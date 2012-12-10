@@ -11,8 +11,8 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
-#define kAPIBase								@"http://192.168.1.9:5000"
-#define kAPIKey									@"e6cfb022e1b4bbe10865acc8ca76f9d0"
+#define kAPIBase								@"http://staging.pushlayer.com"
+#define kAPIKey									@"-APPLICATION API KEY HERE-"
 #define kNotificationEndpoint		@"applications/2/notifications.json"
 
 @interface ViewController ()
