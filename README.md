@@ -14,7 +14,7 @@ git submodule update --init
 
 ## PushLayer Credentials
 
-Next, you'll need to get your application ID from PushLayer. Check out the documentation on how to setup your APNS entitlements, adding your certificate to PushLayer, and then grabbing your application ID with the [PushLayer Docs](http://staging.pushlayer.com/pages/docs#SetupandAPNSentitlements).
+Next, you'll need to get your application ID from PushLayer. Check out the documentation on how to setup your APNS entitlements, adding your certificate to PushLayer, and then grabbing your application ID with the [PushLayer Docs](https://www.pushlayer.com/pages/docs#SetupandAPNSentitlements).
 
 Once you have your application ID, add it to line 15 of PushLayerTest/ViewController.m
 
